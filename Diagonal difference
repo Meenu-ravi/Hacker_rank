@@ -31,16 +31,3 @@
 ##The secondary diagonal is:
 ##            4
 ##      5
-##10
-##Sum across the secondary diagonal: 4 + 5 + 10 = 19 
-##Difference: |4 - 19| = 15
-#!/bin/python
-
-import sys
-
-
-n = int(raw_input().strip())
-a = []
-for a_i in xrange(n):
-   a_temp = map(int,raw_input().strip().split(' '))
-   a.append(a_temp)
